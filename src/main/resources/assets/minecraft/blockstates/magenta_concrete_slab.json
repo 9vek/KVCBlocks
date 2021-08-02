@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "minecraft:block/magenta_concrete_slab" },
+    "type=top": { "model": "minecraft:block/magenta_concrete_slab_top" },
+    "type=double": { "model": "block/magenta_concrete" }
+  }
+}

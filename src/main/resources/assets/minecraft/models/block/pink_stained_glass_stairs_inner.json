@@ -1,0 +1,12 @@
+{
+    "parent": "minecraft:block/template_glass_stairs_inner",
+    "textures": {
+        "full": "block/pink_stained_glass",
+        "stairs_bottom_left": "minecraft:block/pink_stained_glass_stairs_bottom_left",
+        "stairs_bottom_right": "minecraft:block/pink_stained_glass_stairs_bottom_right",
+        "corner_bottom_left": "minecraft:block/pink_stained_glass_corner_bottom_left",
+        "corner_bottom_right": "minecraft:block/pink_stained_glass_corner_bottom_right",
+        "corner_top_left": "minecraft:block/pink_stained_glass_corner_top_left",
+        "corner_top_right": "minecraft:block/pink_stained_glass_corner_top_right"
+    }
+}

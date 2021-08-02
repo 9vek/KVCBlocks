@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "kvc",
+  "version": "${version}",
+
+  "name": "Kevyn's Vanilla Complement: Blocks",
+  "description": "add extra vanilla style building and decoration blocks to minecraft",
+  "authors": [
+    "Kevyn"
+  ],
+  "contact": {
+    "homepage": "kevyn.cn",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/kvc/icon.jpg",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "cn.kevyn.kvc.blocks.KVCBlocks"
+    ],
+    "client": [
+      "cn.kevyn.kvc.blocks.KVCBlocksClient"
+    ]
+  },
+  "mixins": [
+    "ksid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

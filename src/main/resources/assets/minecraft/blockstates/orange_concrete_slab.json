@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "minecraft:block/orange_concrete_slab" },
+    "type=top": { "model": "minecraft:block/orange_concrete_slab_top" },
+    "type=double": { "model": "block/orange_concrete" }
+  }
+}

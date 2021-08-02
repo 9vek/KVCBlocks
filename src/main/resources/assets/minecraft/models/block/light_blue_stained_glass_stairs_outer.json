@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:block/template_glass_stairs_outer",
+    "textures": {
+        "full": "block/light_blue_stained_glass",
+        "half_bottom": "minecraft:block/light_blue_stained_glass_slab",
+        "half_top": "minecraft:block/light_blue_stained_glass_slab_top",
+        "stairs_bottom_left": "minecraft:block/light_blue_stained_glass_stairs_bottom_left",
+        "stairs_bottom_right": "minecraft:block/light_blue_stained_glass_stairs_bottom_right",
+        "stairs_top_left": "minecraft:block/light_blue_stained_glass_stairs_top_left",
+        "corner_bottom_left": "minecraft:block/light_blue_stained_glass_corner_bottom_left",
+        "corner_bottom_right": "minecraft:block/light_blue_stained_glass_corner_bottom_right",
+        "corner_top_left": "minecraft:block/light_blue_stained_glass_corner_top_left",
+        "corner_top_right": "minecraft:block/light_blue_stained_glass_corner_top_right"
+    }
+}
