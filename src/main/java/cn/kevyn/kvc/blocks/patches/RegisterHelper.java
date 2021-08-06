@@ -25,25 +25,17 @@ public class RegisterHelper {
         List<Block> blocks = new ArrayList<>();
         for (int i = 0; i < COLORS.length; i++) {
             Block block = null;
-
             if (suffix.contains("stairs")) {
-
                 if (suffix.contains("stained_glass")) {
-
                     block = new KVCStainedGlassStairsBlock(blockState, settings, DyeColor.byName(COLORS[i], null));
-
                 }
                 else block = new KVCStairsBlock(blockState, settings);
             }
             else if (suffix.contains("slab")) {
-
                 block = new KVCSlabBlock(settings);
-
             }
-
             registerBlockWithItem(block, COLORS[i]+suffix, KVC_BUILDING_BLOCKS);
             blocks.add(block);
-
         }
         return blocks;
     }
