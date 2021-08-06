@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "kvc",
+  "id": "kvc-blocks",
   "version": "${version}",
 
   "name": "Kevyn's Vanilla Complement: Blocks",
@@ -14,7 +14,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/kvc/icon.jpg",
+  "icon": "assets/kvc/icon.png",
 
   "environment": "*",
   "entrypoints": {
