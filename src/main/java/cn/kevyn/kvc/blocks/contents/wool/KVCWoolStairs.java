@@ -10,7 +10,8 @@ import net.minecraft.block.Blocks;
 public class KVCWoolStairs {
 
     private static BlockState WOOL_BLOCKSTATE = Blocks.BLACK_WOOL.getDefaultState();
-    private static AbstractBlock.Settings WOOL_STAIRS_SETTINGS = FabricBlockSettings.copy(Blocks.BLACK_WOOL).allowsSpawning(AllowSpawning::never);
+    private static AbstractBlock.Settings WOOL_STAIRS_SETTINGS = FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)
+            .allowsSpawning(AllowSpawning::never);
 
     public static void doRegister() {
 

@@ -3,12 +3,16 @@ package cn.kevyn.kvc.blocks.contents.concrete;
 import cn.kevyn.kvc.blocks.patches.AllowSpawning;
 import cn.kevyn.kvc.blocks.patches.RegisterHelper;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Blocks;
 
 public class KVCConcreteSlabs {
 
-    private static AbstractBlock.Settings CONCRETE_STAIRS_SETTINGS = FabricBlockSettings.copy(Blocks.BLACK_CONCRETE).allowsSpawning(AllowSpawning::never);
+    private static AbstractBlock.Settings CONCRETE_STAIRS_SETTINGS = FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE)
+            .allowsSpawning(AllowSpawning::never)
+            .breakByTool(FabricToolTags.PICKAXES)
+            .requiresTool();
 
     public static void doRegister() {
 
