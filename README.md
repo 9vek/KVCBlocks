@@ -1,7 +1,9 @@
 # Kevyn's Vanilla Complement: Blocks
  ![IMG](src/main/resources/assets/kvc/logo.png)
 
+Curseforge release: [KVCBlocks - Mods - Minecraft - CurseForge](https://www.curseforge.com/minecraft/mc-mods/kvc-blocks)
 
+MCBBS release: [[1.17\][KVCBlocks]蛋挞君的原版补全方块篇——想要彩色玻璃和混凝土的楼梯和半砖吗？](https://www.mcbbs.net/thread-1239534-1-1.html)
 
 ## About this mod
 
